@@ -32,7 +32,7 @@ def save_gzip(var,output_path,filename):
 # This functions is designed to take the WorldBank data file as is,
 # and to crop out the relevent data sections and feed them to each CountrySet
 
-def wdi_to_datadict(wdi_zip_loc = '.\\data\\WDI_csv.zip',output_dir = '.\\output\\data_dict.zip'):
+def wdi_to_datadict(wdi_zip_loc = '.\\data\\WDI_csv.zip'):
     
     ### return data_dict containing all CountrySet classes
 
